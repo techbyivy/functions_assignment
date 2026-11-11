@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f1e8;
+  margin: 0;
+  padding: 2rem 1rem;
+  color: #1a2038;
+}
+
+.card {
+  max-width: 560px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+th, td { padding: 0.6rem; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #1a2038; color: #fff; }
+td:last-child, th:last-child { text-align: right; }
+
+.add-expense { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.add-expense input { flex: 1 1 140px; padding: 0.5rem; }
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #0f7b6c;
+  color: #fff;
+  cursor: pointer;
+}
+button.secondary { background: #888; }
+
+.summary p { margin: 0.4rem 0; }
+.positive { color: #1b8a3a; }
+.negative { color: #c62828; }
